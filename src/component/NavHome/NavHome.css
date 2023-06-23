@@ -1,0 +1,37 @@
+.navbar-head1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.icon-logo {
+    width: 20%;
+}
+ 
+.about-manu {
+    color: white;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a.dropdown-item {
+    color: #1b70de;
+}
+
+a.navbar-brand {
+    font-family: cursive;    
+    font-size: 30px;
+}
+
+.link-home-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.link-home-nav:hover{
+    color: white;
+    font-size: 18px;
+}

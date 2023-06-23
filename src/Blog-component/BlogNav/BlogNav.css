@@ -1,0 +1,37 @@
+.blognav-navbar-head1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-logo {
+    width: 20%;
+}
+
+a#collasible-nav-dropdown-blog {
+    color: #1b70de;
+}
+
+button#toggle-blog {
+    background-color: cornflowerblue;
+}
+
+.navbar-nav {
+    align-items: baseline;
+    gap: 11px;
+}
+
+.navbar-brand-blog {
+    font-family: cursive;
+    color: #1b70de;
+    font-size: 30px;
+}
+
+.blog-link-blog{
+    text-decoration: none;
+    color: #1b70de;
+}
+.blog-link-blog:hover{
+    color: #1b70de;
+    font-size: 18px;
+    text-decoration: none
+}

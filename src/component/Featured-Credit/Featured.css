@@ -1,0 +1,848 @@
+.featured-container {
+    padding-top: 40px;
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.logo {
+    width: 350px;
+}
+
+.Credit-div {
+    text-align: center;
+}
+
+.featured- {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.first-div1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flipkart {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div:hover {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #1b70de;
+}
+
+.first-div .div-pera:hover {
+    color: #1b70de;
+}
+
+.first-div:hover .div-pera {
+    color: #1b70de;
+}
+
+.first-div1:hover {
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #1b70de;
+}
+
+.first-div1 .div-pera:hover {
+    color: #1b70de;
+}
+
+.first-div1:hover .div-pera {
+    color: #1b70de;
+}
+
+.div-pera {
+    font-size: 18px;
+}
+
+.cards-featured {
+    font-size: 50px;
+}
+
+.Learn {
+    background-color: #1b70de;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .featured-container {
+        padding-top: 40px;
+        margin-top: 20px;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        padding-top: 20px;
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 14px;
+    }
+
+    .cards-featured {
+        font-size: 30px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        width: 125px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 39px;
+        border-radius: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .featured-container {
+        padding-top: 40px;
+        margin-top: 20px;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 30px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 130px;
+        height: 40px;
+        border-radius: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .featured-container {
+        padding-top: 40px;
+        margin-top: 20px;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 35px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        width: 140px;
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .featured-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .featured-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 44px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 45px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 44px;
+        width: 170px;
+        border-radius: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .featured-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .featured-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 44px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 45px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 44px;
+        width: 170px;
+        border-radius: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .featured-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .featured-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 44px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 45px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 44px;
+        width: 170px;
+        border-radius: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1880px) {
+    .featured-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .Credit-div {
+        text-align: center;
+    }
+
+    .featured-Credit-div-last {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .featured-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .first-div1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 44px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flipkart {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-div:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .first-div1:hover {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #1b70de;
+    }
+
+    .first-div1 .div-pera:hover {
+        color: #1b70de;
+    }
+
+    .first-div1:hover .div-pera {
+        color: #1b70de;
+    }
+
+    .div-pera {
+        font-size: 16px;
+    }
+
+    .cards-featured {
+        font-size: 45px;
+    }
+
+    .Learn {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 44px;
+        width: 170px;
+        border-radius: 15px;
+    }
+
+}

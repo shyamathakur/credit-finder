@@ -1,0 +1,366 @@
+.todaycard-container {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.Credit-div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.today {
+    font-size: 50px;
+}
+
+.quick-today {
+    font-size: 18px;
+}
+
+.today-Credit-div-last {
+    padding-top: 40px;
+    gap: 2rem;
+}
+
+.credit-child-div {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.credit-child-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.today-icon-icon {
+    font-size: 48px;
+    color: #5389cf;
+}
+
+.div-pera {
+    font-size: 18px;
+}
+
+.today-pera-div {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 34px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div.col {
+        width: 200px;
+    }
+
+    .credit-child-div {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 35px;
+        color: #5389cf;
+    }
+
+    .fithump {
+        width: 200px;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 40px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 35px;
+        color: #5389cf;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 42px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 40px;
+        color: #5389cf;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 45px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 44px;
+        color: #5389cf;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 48px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 46px;
+        color: #5389cf;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .todaycard-container {
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .Credit-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .today {
+        font-size: 50px;
+    }
+
+    .quick-today {
+        font-size: 18px;
+    }
+
+    .today-Credit-div-last {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .credit-child-div {
+        width: 300px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .credit-child-div:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+            rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .today-icon-icon {
+        font-size: 48px;
+        color: #5389cf;
+    }
+
+    .div-pera {
+        font-size: 18px;
+    }
+
+    .today-pera-div {
+        padding-top: 20px;
+    }
+}

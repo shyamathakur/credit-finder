@@ -1,0 +1,533 @@
+.LeaveComment-div-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif;
+}
+
+.LeaveComment-container-div {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.leave-head {
+    font-size: 30px;
+}
+
+.LeaveComment-second-row-div {
+    display: flex;
+}
+
+.LeaveComment-form-first-div-first-child {
+    width: 100%;
+}
+
+.LeaveComment-form-div-first {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LeaveComment-form-second {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LeaveComment-second-row-div.row {
+    align-items: center;
+}
+
+.LeaveComment-form-div-child {
+    justify-content: space-between;
+    width: 20vw;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    min-width: 0;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.LeaveComment-form-button {
+    color: #fff;
+    background-color: #4096ff;
+}
+
+@media only screen and (max-width: 320px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .img-div-LeaveComment-div {
+        text-align: center;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .LeaveComment-img-ss {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .img-div-LeaveComment-div {
+        text-align: center;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .LeaveComment-img-ss {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .img-div-LeaveComment-div {
+        text-align: center;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .LeaveComment-img-ss {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .LeaveComment-img-ss {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .LeaveComment-img-ss {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1900px) {
+    .LeaveComment-div-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: serif;
+    }
+
+    .LeaveComment-container-div {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .LeaveComment-second-row-div {
+        display: flex;
+    }
+
+    .LeaveComment-form-div-first {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-form-second {
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .LeaveComment-second-row-div.row {
+        align-items: center;
+    }
+
+    .LeaveComment-form-div-child {
+        justify-content: space-between;
+    }
+
+    :where(.css-dev-only-do-not-override-ph9edi).ant-input-affix-wrapper {
+        position: relative;
+        display: inline-flex;
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.88);
+        font-size: 14px;
+        line-height: 1.5714285714285714;
+        background-color: #ffffff;
+        background-image: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #d9d9d9;
+        border-radius: 6px;
+        transition: all 0.2s;
+    }
+
+    .LeaveComment-form-button {
+        color: #fff;
+        background-color: #4096ff;
+
+    }
+}

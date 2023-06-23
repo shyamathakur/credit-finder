@@ -1,0 +1,161 @@
+.solution-navbar-head {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.solution-row-first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solution-make {
+    float: left;
+}
+
+.solution-informed {
+    font-size: 35px;
+}
+
+.solution-helps {
+    font-size: 19px;
+    color: #545151;
+}
+
+@media only screen and (max-width: 320px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .solution-make {
+        float: left;
+    }
+
+    .solution-make-div-div {
+        line-height: 35px;
+        text-align: justify;
+        padding: 10px 52px;
+    }
+
+    .solution-informed {
+        font-size: 18px;
+    }
+
+    .solution-helps {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .solution-make {
+        float: left;
+    }
+
+    .solution-make-div-div {
+        text-align: justify;
+        padding: 10px 52px;
+        line-height: 35px;
+    }
+
+    .solution-informed {
+        font-size: 20px;
+    }
+
+    .solution-helps {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .solution-make {
+        float: left;
+    }
+
+    .solution-make-div-div {
+        text-align: justify;
+        padding: 10px 52px;
+        line-height: 45px;
+    }
+    
+    .solution-informed {
+        font-size: 34px;
+    }
+
+    .solution-helps {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .solution-make {
+        float: left;
+    }
+
+    .solution-informed {
+        font-size: 27px;
+    }
+
+    .solution-helps {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .solution-make-div-div {
+        text-align: justify;
+        padding: 10px 52px;
+    }
+
+    .solution-informed {
+        font-size: 30px;
+    }
+
+    .solution-helps {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .solution-row-first {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .solution-make {
+        float: left;
+    }
+
+    .solution-informed {
+        font-size: 34px;
+    }
+
+    .solution-helps {
+        font-size: 20px;
+    }
+}

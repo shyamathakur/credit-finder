@@ -1,0 +1,567 @@
+.navbar-head1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-container {
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(50 49 49);
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-family: cursive;
+    color: #fff;
+}
+
+.footer-manu {
+    justify-content: space-around;
+    gap: 20px;
+    display: flex;
+    color: #fff;
+}
+
+.footer-manu-home {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-manu-privecy {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-manu-icon {
+    justify-content: space-around;
+    gap: 20px;
+    display: flex;
+    color: #fff;
+}
+
+.footer-manu p {
+    font-size: 18px;
+}
+
+.about-manu {
+    color: white;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-RiLinkedinFill {
+    color: #fff;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #3b5998;
+}
+
+.icon-FaFacebookF {
+    color: #fff;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #0077b5;
+}
+
+.icon-TfiTwitter {
+    color: #fff;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #1da1f2;
+}
+
+.icon-MdEmail {
+    color: #fff;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #ea4335;
+}
+
+@media only screen and (max-width: 320px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 16px;
+    }
+
+    .about-manu {
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-size: 25px;
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 16px;
+    }
+
+    .about-manu {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 16px;
+    }
+
+    .about-manu {
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: flex-start;
+        justify-content: space-around;
+        display: flex;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-size: 30px;
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+
+    .footer-manu-home {
+        display: flex;
+        gap: 15px;
+    }
+
+    .footer-manu-privecy {
+        display: flex;
+        gap: 15px;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 18px;
+    }
+
+    .about-manu {
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: flex-start;
+        justify-content: space-around;
+        display: flex;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-size: 25px;
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 18px;
+    }
+
+    .about-manu {
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 35px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .navbar-head1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer-container {
+        padding: 30px 0px;
+        align-items: flex-start;
+        justify-content: space-around;
+        display: flex;
+        background-color: rgb(50 49 49);
+    }
+
+    .footer-logo {
+        font-size: 30px;
+        font-family: cursive;
+        color: #fff;
+    }
+
+    .footer-manu {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu-icon {
+        justify-content: space-around;
+        gap: 20px;
+        display: flex;
+        color: #fff;
+    }
+
+    .footer-manu p {
+        font-size: 18px;
+    }
+
+    .about-manu {
+        color: white;
+        gap: 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-RiLinkedinFill {
+        color: #fff;
+        font-size: 40px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #3b5998;
+    }
+
+    .icon-FaFacebookF {
+        color: #fff;
+        font-size: 40px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #0077b5;
+    }
+
+    .icon-TfiTwitter {
+        color: #fff;
+        font-size: 40px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #1da1f2;
+    }
+
+    .icon-MdEmail {
+        color: #fff;
+        font-size: 40px;
+        padding: 7px;
+        border-radius: 25px;
+        background-color: #ea4335;
+    }
+}

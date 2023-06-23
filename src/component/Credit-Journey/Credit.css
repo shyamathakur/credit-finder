@@ -1,0 +1,460 @@
+.credit-container {
+    padding-top: 40px;
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.kick-head {
+    font-size: 45px;
+}
+
+.kick-jouney {
+    padding: 10px;
+}
+
+.Feature {
+    background-color: #1b70de;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    border-radius: 15px;
+}
+
+button.Feature {
+    width: 180px;
+}
+
+.partnered {
+    font-size: 18px;
+}
+
+.convenient-div-main {
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+}
+
+.conta {
+    gap: 10px;
+}
+
+.convenient1 {
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.conventien-home-div{
+    text-align: center;
+    align-items: inherit;
+}
+
+.convenient {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.icon-size {
+    font-size: 40px;
+}
+
+.icon-text {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 320px){
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kick-head {
+        font-size: 25px;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 38px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 127px;
+        font-size: 14px;
+    }
+
+    .partnered {
+        font-size: 14px;
+    }
+
+    .convenient-div-main {
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conta {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conta.col {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .convenient1 {
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 25px;
+    }
+
+    .icon-text {
+        font-size: 15px;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kick-head {
+        font-size: 30px;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .partnered {
+        font-size: 16px;
+    }
+
+    .convenient-div-main {
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .conta {
+        gap: 10px;
+    }
+
+    .convenient1 {
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 25px;
+    }
+
+    .icon-text {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kick-head {
+        font-size: 32px;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 42px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 150px;
+    }
+
+    .partnered {
+        font-size: 16px;
+    }
+
+    .convenient-div-main {
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .conta {
+        gap: 10px;
+    }
+
+    .convenient1 {
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 30px;
+    }
+
+    .icon-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kick-head {
+        font-size: 37px;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 42px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 160px;
+    }
+
+    .partnered {
+        font-size: 18px;
+    }
+
+    .convenient-div-main {
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .conta {
+        gap: 20px;
+    }
+
+    .convenient1 {
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 35px;
+    }
+
+    .icon-text {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kick-head {
+        font-size: 38px;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 150px;
+    }
+
+    .partnered {
+        font-size: 17px;
+    }
+
+    .convenient-div-main {
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .conta {
+        gap: 10px;
+    }
+
+    .convenient1 {
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 38px;
+    }
+
+    .icon-text {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .credit-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kick-head {
+        font-size: 45px;
+    }
+
+    .kick-jouney {
+        width: 50%;
+    }
+
+    .Feature {
+        background-color: #1b70de;
+        color: white;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    button.Feature {
+        width: 180px;
+    }
+
+    .partnered {
+        font-size: 18px;
+    }
+
+    .convenient-div-main {
+        width: 50%;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .conta {
+        gap: 10px;
+    }
+
+    .convenient1 {
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .convenient {
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 40px;
+    }
+
+    .icon-text {
+        font-size: 25px;
+    }
+
+}

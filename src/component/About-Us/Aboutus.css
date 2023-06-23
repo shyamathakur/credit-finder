@@ -1,0 +1,232 @@
+.aboutus-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aboutus-col1 {
+    padding: 20px;
+    gap: 2rem;
+}
+
+.aboutus-about {
+    font-size: 50px;
+}
+
+.aboutus-read-more {
+    background-color: #1b70de;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.aboutus-card-image {
+    padding-top: 20px;
+    width: 600px;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .aboutus-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 35px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 110px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .aboutus-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 35px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 110px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .aboutus-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 40px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 120px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutus-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 40px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 120px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .aboutus-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 50px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 140px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .aboutus-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .aboutus-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .aboutus-about {
+        font-size: 50px;
+    }
+
+    .aboutus-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 140px;
+        border-radius: 15px;
+    }
+
+    .aboutus-card-image {
+        padding-top: 20px;
+        width: 600px;
+    }
+
+}

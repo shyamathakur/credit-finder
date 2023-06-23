@@ -1,0 +1,253 @@
+.Benefits-container {
+    padding: 30px;
+}
+
+.Benefits-row {}
+
+.Benefits-col1 {
+    padding: 20px;
+    gap: 2rem;
+}
+
+.Benefits-about {
+    font-size: 30px;
+}
+
+.Benefits {}
+
+.Benefits-read-more {
+    background-color: #1b70de;
+    color: white;
+    height: 40px;
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.Benefits-co2 {}
+
+.Benefits-card-image {
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .Benefits-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Benefits-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .Benefits-about {
+        font-size: 23px;
+    }
+
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 110px;
+        border-radius: 15px;
+    }
+
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .Benefits-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Benefits-row {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .Benefits-about {
+        font-size: 25px;
+    }
+
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 110px;
+        border-radius: 15px;
+    }
+
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .Benefits-container {
+        padding-top: 60px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Benefits-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+
+    .Benefits-about {
+        font-size: 25px;
+    }
+
+    .Benefits {}
+
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 38px;
+        margin-top: 20px;
+        width: 120px;
+        border-radius: 15px;
+    }
+
+    .Benefits-co2 {}
+
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .Benefits-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+    
+    .Benefits-about {
+        font-size: 27px;
+    }
+    
+    
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 120px;
+        border-radius: 15px;
+    }
+    
+    
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .Benefits-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+    
+    .Benefits-about {
+        font-size: 30px;
+    }
+    
+    
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 140px;
+        border-radius: 15px;
+    }
+    
+    .Benefits-co2 {}
+    
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .Benefits-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    .Benefits-col1 {
+        padding: 20px;
+        gap: 2rem;
+    }
+    
+    .Benefits-about {
+        font-size: 30px;
+    }
+    
+    
+    .Benefits-read-more {
+        background-color: #1b70de;
+        color: white;
+        height: 40px;
+        margin-top: 20px;
+        width: 140px;
+        border-radius: 15px;
+    }
+    
+    .Benefits-co2 {}
+    
+    .Benefits-card-image {
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+}
